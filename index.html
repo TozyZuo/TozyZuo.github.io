@@ -1,293 +1,151 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>TozyZuo的个人主页</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <head>
+        <meta charset="utf-8">
+            <title>TozyZuo的个人主页</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
-    <link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="/assets/public/favicon.ico" />
+                <link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
+                <link rel="shortcut icon" href="/assets/public/favicon.ico" />
 
-    <script src="/assets/modernizr.js" type="text/javascript"></script>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="profile">
-        <section class="profile-masthead" id="masthead">
-          <header class="profile-logo">
-            <div class="profile-logo-image">
-              <img alt="Square Open Source " src="/images/logo.png" />
-            </div>
-            <div class="profile-name">
-              <h1>TozyZuo的个人主页</h1>
-            </div>
-          </header>
-          <aside class="profile-summary">
-            <div class="summary-location summary-module">
-              <a href="http://github.com/TozyZuo">github.com/TozyZuo</a>
-            </div>
-          </aside>
-        </section>
+                <script src="/assets/modernizr.js" type="text/javascript"></script>
+                </head>
+    <body>
+        <div class="wrapper">
+            <div class="profile">
+                <section class="profile-masthead" id="masthead">
+                    <header class="profile-logo">
+                        <div class="profile-logo-image">
+                            <img alt="Square Open Source " src="/images/logo.png" />
+                        </div>
+                        <div class="profile-name">
+                            <h1>TozyZuo的个人主页</h1>
+                        </div>
+                    </header>
+                    <aside class="profile-summary">
+                        <div class="summary-location summary-module">
+                            <a href="http://github.com/TozyZuo">github.com/TozyZuo</a>
+                        </div>
+                    </aside>
+                </section>
 
-        <section class="profile-content" id="content">
-          <!-- TODO header? -->
-          <div class="profile-description">
-            <p>iOS coder</p>
-          </div>
-          <article class="profile-menu" id="menu">
-            <nav class="menu-navigation">
-              <ul class="menu-navigation-list">
-                <li class="menu-navigation-list-item"><a href="#android">Android</a></li>
-                <li class="menu-navigation-list-item"><a href="#ios">iOS</a></li>
-                <li class="menu-navigation-list-item"><a href="#cplusplus">cplusplus</a></li>
-                <li class="menu-navigation-list-item"><a href="#other">Other</a></li>
-              </ul>
-            </nav>
-            <div id="android" class="menu-category">
-              <h3 class="menu-category-name">Android</h3>
-              <div class="profile-content">
-                <p>这里开源出来的项目包括刚开始开始自学开发的上线项目以及近期做的的插件框架以及常用的SDK的汇总.</p>
-              </div>
-              <ol class="menu-category-list has-images">
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">iBooksReader</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/iBooks" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">一款基于WebView＋JS排版的优美阅读器，支持Epub、PDF、TXT、CHM等格式，在GoolgePlay上已经有50万＋的下载量，但因为Google Play账号被封了这里开源出来了</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/ibooksreader.jpg" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">LemonLancher</h4>
-                  <span class="menu-item-price"> <a href="https://github.com/achellies/LemonLancher" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">一款Android Lancher，实现了Windows Phone7风格</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/lemonlancher.jpg" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">LemonNews</h4>
-                  <span class="menu-item-price"> <a href="https://github.com/achellies/LemonNews" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">RSS阅读器</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/lemonnews.png" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">LemonBlog</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/LemonBlog" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">腾讯微博第三方客户端</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/lemonblog.png" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">插件框架</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/AndroidPlugin" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">Android的插件框架，可以支持APK插件形式，真正做到插件APK即可作为插件运行也可以独立运行，目前支持Activity和Service</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="" />
-                </div>
-              </li>
-              </ol>
-            </div>
-            <div id="ios" class="menu-category">
-              <h3 class="menu-category-name">iOS</h3>
-              <div class="profile-content">
-                <p>IOS项目开源出来的比较少一些，后面会陆续把自己写的一些sdk层面的以及常用的组件开源出来.<p>
-              </div>
-              <ol class="menu-category-list has-images">
-                <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">Unrecognized selector</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/iOSNoUnRecognizedSelectorException" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">在调用performSelector时如果忘记了检查selector是否存在(respondsToSelector)，则很容易造成unrecognized selector exception, 这里提供一个简单方便的方案解决unrecognized selector报错的问题。</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/unrecognized_selector.png" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">Advance Objective-C</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/AdvanceObjective-CStudy" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">探讨Objective－C的高级语法，例如：Swizzing、shallow copy/deap copy、dynamic method resolution、message forwarding、keep unrecognized selector crash、dynamic create protocol & class、多播代理、PromiseKit的使用等。</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/advance_objective_c.jpeg" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">GestureZoomAndPanAndRotate</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/GestureZoomAndPanAndRotate" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">UIPinchGestureRecognizer UIPanGestureRecognizer UIRotationGestureRecognizer for any UIView。</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/ios_gesture.png" />
-                </div>
-              </li>
-              </ol>
-            </div>
-            <div id="cplusplus" class="menu-category">
-              <h3 class="menu-category-name">cplusplus</h3>
-              <div class="profile-content">
-                <p>Windows C++的工作经历主要集中在打印机驱动、客户端以及Windows CE客户端的开发的上，这里分享了DirectUI的界面库Duilib、基于EAWebkit的轻量级浏览器DuiBrowser、Webkit在Windows CE上的移植等。</p>
-              </div>
-              <ol class="menu-category-list has-images">
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">Duilib</h4>
-                  <span class="menu-item-price"><a href="http://code.google.com/p/duilib/" target="_blank">Google Code</a> &middot; <a href="https://github.com/achellies/DUI_LIb" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">DirectUI界面库，已移植到WindowsCE.</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/duilib.png" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">DuiBrowser</h4>
-                  <span class="menu-item-price"><a href="http://code.google.com/p/duibrowser/" target="_blank">Google Code</a> &middot; <a href="https://github.com/achellies/DuiBrowser" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">基于EAWebkit内核＋Duilib界面库的轻量级浏览器, ，已移植到WindowsCE.</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/duibrowser.png" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">WaterEveryDay</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/WaterEveryDay" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">反编译友宝客户端的便捷工具，可以通过友宝贩卖机免费获取饮料、食物等</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/WaterEveryDay.png" />
-                </div>
-              </li>
-              </ol>
-              <ol class="menu-category-list has-images">
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">SignAPK</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/SignApk" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">Windows PC下Android自动打包工具，主要方便反编译破解。</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/signapk.png" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">WindowsPrinterDriver</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/WindowsPrinterDriver" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">Windows下打印机驱动程序，可以使用WTL编写驱动界面</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/printerdriver.jpg" />
-                </div>
-              </li>
-              <li class="menu-item">
-                <div class="menu-item-info">
-                  <h4 class="menu-item-name">WinCEWebKit</h4>
-                  <span class="menu-item-price"><a href="https://github.com/achellies/WinCEWebKit" target="_blank">GitHub</a></span>
-                  <p class="menu-item-description">基于Webkit.org官网移植的，Windows CE平台下的浏览器内核</p>
-                </div>
-                <div class="menu-item-image has-meta-content">
-                  <img src="/repo_images/wincewebkit.jpg" />
-                </div>
-              </li>
-              </ol>
-              <ol class="menu-category-list">
-            </div>
-            <div id="other" class="menu-category">
-              <h3 class="menu-category-name">Other</h3>
-              <ol class="menu-category-list has-images">
-              <li class="menu-item">
-              </li>
-              </ol>
-              <ol class="menu-category-list">
-              </ol>
-            </div>
+                <section class="profile-content" id="content">
+                    <!-- TODO header? -->
+                    <div class="profile-description">
+                        <p>iOS coder</p>
+                    </div>
+                    <article class="profile-menu" id="menu">
+                        <nav class="menu-navigation">
+                            <ul class="menu-navigation-list">
+                                <li class="menu-navigation-list-item"><a href="#ios">iOS</a></li>
+                            </ul>
+                        </nav>
+                        <div id="ios" class="menu-category">
+                            <h3 class="menu-category-name">iOS</h3>
+                            <div class="profile-content">
+                                <p>开源的都是一些Demo类，工具类，自己实验性的项目，后续会开源更多的项目。<p>
+                            </div>
+                            <ol class="menu-category-list has-images">
+                                <li class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4 class="menu-item-name">iBeaconDemo</h4>
+                                        <span class="menu-item-price"><a href="https://github.com/TozyZuo/iBeaconDemo" target="_blank">GitHub</a></span>
+                                        <p class="menu-item-description">一个beaconAPI相关的demo，如果用beacon做室内定位的话可能会用到。相关类:CLBeacon，CLBeaconRegion，CLLocationManager。</p>
+                                    </div>
+                                    <div class="menu-item-image has-meta-content">
+                                        <img src="/repo_images/iBeaconDemo.png" />
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4 class="menu-item-name">CategoryUtility</h4>
+                                        <span class="menu-item-price"><a href="https://github.com/TozyZuo/CategoryUtility" target="_blank">GitHub</a></span>
+                                        <p class="menu-item-description">用于在Category添加属性。由于Category不能添加变量，所以要添加属性比较困难。这个工具用了关联对象的办法实现添加属性，并且支持weak。</p>
+                                    </div>
+                                    <div class="menu-item-image has-meta-content">
+                                        <img src="/repo_images/CategoryUtility.png" />
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <div class="menu-item-info">
+                                        <h4 class="menu-item-name">TestResponder</h4>
+                                        <span class="menu-item-price"><a href="https://github.com/TozyZuo/TestResponder" target="_blank">GitHub</a></span>
+                                        <p class="menu-item-description">用于测试touch透传的Demo，可以实现类似地图的需求。一个根vc不动，上面可以覆盖各种navigation，并且可以将touch事件透传到根vc上。</p>
+                                    </div>
+                                    <div class="menu-item-image has-meta-content">
+                                        <img src="/repo_images/TestResponder.png" />
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                        <a id="btn-view-full-menu" class="btn-view-full-menu" href="http://github.com/TozyZuo">View full list of repositories</a>
+                    </article>
 
-            <a id="btn-view-full-menu" class="btn-view-full-menu" href="http://github.com/TozyZuo">View full list of repositories</a>
-          </article>
+                    <section class="profile-modules">
+                        <h2 class="module-name">Donate</h2>
+                        <h3>PayPal</h3>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AX7SzxBVf0QlIWJqtILFeyg1F_wvYSxYmNpCQkcs42O1FriQluzLsFIeb2WA"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
+                        <h1/>
+                        <h3>支付宝</h3>
+                        <div>
+                            <img alt="扫一扫可以通过支付宝给我付款哦" src="/assets/public/profile-icon-alipay.png" width=160/>
+                        </div>
+                    </section>
 
-          <section class="profile-modules">
-            <h2 class="module-name">Donate</h2>
-            <h3>PayPal</h3>
-            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=AX7SzxBVf0QlIWJqtILFeyg1F_wvYSxYmNpCQkcs42O1FriQluzLsFIeb2WA"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"></a>
-            <h1/>
-            <h3>支付宝</h3>
-            <div>
-              <img alt="扫一扫可以通过支付宝给我付款哦" src="/assets/public/profile-icon-alipay.png" width=160/>
+                    <section class="profile-modules" id="modules">
+                        <ul class='twitter-columns'>
+                            <li class="profile-module">
+                                <h2 class="module-name">Contact Me</h2>
+                                <ul class="module-list">
+                                    <li><a href="http://blog.csdn.net/achellies">Engineering Blog</a> &ndash; n久不更新了</li>
+                                    <li><a href="https://raw.githubusercontent.com/achellies/achellies.github.io/master/resume/resume.docx">Personal Resume</a> &ndash; 猛点此处</li>
+                                    <li class="module-social">
+                                        <a href="https://twitter.com/achellies1" target="_blank"><i class="icon-twitter"></i></a>
+                                        <a href="https://www.facebook.com/jianshuai.xi" target="_blank"><i class="icon-facebook"></i></a>
+                                    </li>
+                                    <li class="module-social">
+                                        <h2 class="module-name">QQ</h2>
+                                        <div class=".icon-qq-qrcode">
+                                            <img alt="手机QQ扫一扫" class=".icon-qq-qrcode" src="/assets/public/profile-icon-qq-qrcode.png" width=160/>
+                                        </div>
+                                        <h2 class="module-name">微信</h2>
+                                        <div class=".icon-weixin-qrcode">
+                                            <img alt="微信扫一扫" class=".icon-weixin-qrcode" src="/assets/public/profile-icon-weixin-qrcode.png" width=160/>
+                                        </div>
+                                        <h2 class="module-name">微博</h2>
+                                        <div >
+                                            <img alt="微博扫一扫" src="/assets/public/profile-icon-weibo.png" width=160/>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
             </div>
-          </section>
+        </div>
 
-          <section class="profile-modules" id="modules">
-            <ul class='twitter-columns'>
-              <li class="profile-module">
-                <h2 class="module-name">Contact Me</h2>
-                <ul class="module-list">
-                  <li><a href="http://blog.csdn.net/achellies">Engineering Blog</a> &ndash; n久不更新了</li>
-                  <li><a href="https://raw.githubusercontent.com/achellies/achellies.github.io/master/resume/resume.docx">Personal Resume</a> &ndash; 猛点此处</li>
-                  <li class="module-social">
-                    <a href="https://twitter.com/achellies1" target="_blank"><i class="icon-twitter"></i></a>
-                    <a href="https://www.facebook.com/jianshuai.xi" target="_blank"><i class="icon-facebook"></i></a>
-                  </li>
-                  <li class="module-social">
-                    <h2 class="module-name">QQ</h2>
-                     <div class=".icon-qq-qrcode">
-                      <img alt="手机QQ扫一扫" class=".icon-qq-qrcode" src="/assets/public/profile-icon-qq-qrcode.png" width=160/>
-                     </div>
-                     <h2 class="module-name">微信</h2>
-                     <div class=".icon-weixin-qrcode">
-                      <img alt="微信扫一扫" class=".icon-weixin-qrcode" src="/assets/public/profile-icon-weixin-qrcode.png" width=160/>
-                     </div>
-                     <h2 class="module-name">微博</h2>
-                     <div >
-                      <img alt="微博扫一扫" src="/assets/public/profile-icon-weibo.png" width=160/>
-                     </div>
-                  </li>
+        <footer class="footer">
+            <nav class="footer-navigation">
+                <ul class="footer-navigation-list">
                 </ul>
-              </li>
-            </ul>
-          </section>
-        </section>
-      </div>
-    </div>
+                <p class="copyright">© 2005–2014 TozyZuo All rights reserved.</p>
+            </nav>
+        </footer>
 
-    <footer class="footer">
-      <nav class="footer-navigation">
-        <ul class="footer-navigation-list">
-        </ul>
-        <p class="copyright">© 2005–2014 TozyZuo All rights reserved.</p>
-      </nav>
-    </footer>
+        <script type="text/javascript">
+            if(window == window.top) document.body.style.display = "block"; else window.top.location = window.location;
 
-    <script type="text/javascript">
-      if(window == window.top) document.body.style.display = "block"; else window.top.location = window.location;
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-40704740-1']);
+            _gaq.push(['_trackPageview']);
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-40704740-1']);
-      _gaq.push(['_trackPageview']);
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-  </body>
+            </script>
+    </body>
 </html>
