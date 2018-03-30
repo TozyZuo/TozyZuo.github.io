@@ -1,0 +1,16 @@
+Package: io.iosleep.DingTalkFucker
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: mx.yolande@gmail.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/DingTalkFucker/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
+Size: 79022
+MD5sum: 0775c6619f6b90e4de59fe9a78707d3e
+SHA1: 97487755fe46017708299db119d9511281aac5e6
+SHA256: 2247419ed2a2d92a1720187822df9cbd6ffa8269cfa42fc6eada3e695b3b40ed
+Section: System
+Priority: optional
+Homepage: https://github.com/iOSleep/DingTalkFucker
+Description: 签到打卡（wifi，gps），抢红包（延迟，正则匹配）
+Author: iOSleep
+Name: DingTalkFucker

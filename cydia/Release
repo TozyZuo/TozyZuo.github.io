@@ -1,0 +1,8 @@
+Origin: TozyZuo's Cydia Repo
+Label: TozyZuo's Cydia Repo
+Suite: stable
+Version: 1.0
+Codename: Tozy
+Architectures: iphoneos-arm
+Components: main
+Description: TozyZuo's Cydia Repo
