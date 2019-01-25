@@ -11,7 +11,11 @@ Section: Tweaks
 Priority: optional
 Author: TozyZuo
 Name: DingTalkTweak
-Description: 钉钉插件\n1.防撤回\n2.自动抢红包\n3.抢自己\n延迟秒数4.\n修改步数
+Description: 钉钉插件
+1.防撤回
+2.自动抢红包
+3.抢自己，延迟秒数
+4.修改步数
 
 Package: com.tozy.TZNavigationTweak
 Version: 0.1-1
