@@ -1,9 +1,68 @@
+Package: com.tozy.DingTalkTweak
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.tozy.DingTalkTweak_0.1-1_iphoneos-arm.deb
+Size: 30794
+MD5sum: 5a865c9e67b7779a6b0671de7bc557d8
+SHA1: 33630b193eb2c6844949a10c5e910d2c1f8e4e17
+SHA256: 429c93eccf7563f35276c423e65582deb4d8a7ad6b98d6fa9394391382267a46
+Section: Tweaks
+Priority: optional
+Author: TozyZuo
+Name: DingTalkTweak
+Description: 钉钉插件\n1.防撤回\n2.自动抢红包\n3.抢自己\n延迟秒数4.\n修改步数
+
+Package: com.tozy.TZNavigationTweak
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: TozyZuo
+Depends: mobilesubstrate, applist
+Filename: debs/com.tozy.TZNavigationTweak_0.1-1_iphoneos-arm.deb
+Size: 57072
+MD5sum: e2dd32f7de77c93f7959f9d95893e78e
+SHA1: 384d7af56056623ea02538dd0821cf19950e720a
+SHA256: 201cb2de31d6c6f94de4ffd29533c5501ec364d95e6f0f49d9928e552dd50bb6
+Section: Tweaks
+Priority: optional
+Description: 全屏返回手势
+Author: TozyZuo
+Name: TZNavigationTweak
+
+Package: com.tozy.Tweak.hundsun.hospitalcloud.bj.unionmedicalcollegeHospital
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.tozy.Tweak.hundsun.hospitalcloud.bj.unionmedicalcollegeHospital_0.1-1_iphoneos-arm.deb
+Size: 11884
+MD5sum: 33f7dc36f8b94924d2827bb55b78b037
+SHA1: d0306ce77b6e5bd30c0ddf2fc37342c76e6abe95
+SHA256: 47c11a41dede628a0f4f2c719106d3f76fd76d6d2c13d03b82550dc43bce349f
+Section: Tweaks
+Priority: optional
+Author: TozyZuo
+Name: 协和Tweak
+
+Package: com.tozy.WeChatPluginWrapperTweak
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.tozy.WeChatPluginWrapperTweak_0.1-1_iphoneos-arm.deb
+Size: 258794
+MD5sum: 1a536c5eaed31cdc9055168988a60e60
+SHA1: 53fea76774f93d1b1376752de4b083b17cfc3b51
+SHA256: 34d230b3c51dd393d963b3de556f1696f57d3bc5f4150a190b5bbcf043df96a1
+Section: Tweaks
+Priority: optional
+Author: TozyZuo
+Name: WeChatPluginWrapperTweak
+
 Package: io.iosleep.DingTalkFucker
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: mx.yolande@gmail.com
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs//DingTalkFucker/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
+Filename: debs/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
 Size: 79022
 MD5sum: 0775c6619f6b90e4de59fe9a78707d3e
 SHA1: 97487755fe46017708299db119d9511281aac5e6
@@ -14,3 +73,4 @@ Homepage: https://github.com/iOSleep/DingTalkFucker
 Description: 签到打卡（wifi，gps），抢红包（延迟，正则匹配）
 Author: iOSleep
 Name: DingTalkFucker
+
