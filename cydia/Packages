@@ -1,3 +1,18 @@
+Package: com.r3al.flux
+Version: 10.0.0
+Architecture: iphoneos-arm
+Maintainer: The R3al <NOVALIDEMAIL@NOVALIDEMAIL.COM>
+Depends: firmware (>= 9.0)
+Filename: debs/com.r3al.flux.deb
+Size: 106776
+MD5sum: 5d57f9dc8920ab92c26753a16de97060
+SHA1: 402f0b436b66cac88f0ba22912f0d54af7782592
+SHA256: 53b2dcb8eeff456ee84dbd1c0eb6beeec2a8ed2d5d3dba0092c301ae92ccaa30
+Section: Applications
+Description: F.lux makes display warmer for more peaceful night viewing...Application must be open in task switcher to work properly
+Author: The R3al <repo@n0n3.org>
+Name: F.lux IPA Final
+
 Package: com.tozy.DingTalkTweak
 Version: 0.1-1
 Architecture: iphoneos-arm
