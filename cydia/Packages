@@ -26,7 +26,6 @@ Section: Tweaks
 Priority: optional
 Author: TozyZuo
 Name: DingTalkTweak
-Description: 钉钉插件 1.防撤回 2.自动抢红包 3.抢自己，延迟秒数 4.修改步数
 
 Package: com.tozy.TZNavigationTweak
 Version: 0.1-1
@@ -89,4 +88,21 @@ Homepage: https://github.com/iOSleep/DingTalkFucker
 Description: 签到打卡（wifi，gps），抢红包（延迟，正则匹配）
 Author: iOSleep
 Name: DingTalkFucker
+
+Package: iokittools
+Version: 76-3p
+Architecture: iphoneos-arm
+Maintainer: TozyZuo
+Installed-Size: 84
+Depends: ncurses
+Filename: debs/iokittools_except_ioreg_76-3p_iphoneos-arm.deb
+Size: 4128
+MD5sum: ced1ee4341d4a286c325aea7be8497d8
+SHA1: 97ef35bcc376120de0cc7c3210d33c59354eda75
+SHA256: e4a1a47e9d29d38e159c35fefe585773b95c189fd6caf96461b06ec87ce8e36b
+Section: Development
+Priority: important
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: IOKit Tools
+Sponsor: TozyZuo
 
