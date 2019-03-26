@@ -44,16 +44,17 @@ Author: TozyZuo
 Name: TZNavigationTweak
 
 Package: com.tozy.Tweak.hundsun.hospitalcloud.bj.unionmedicalcollegeHospital
-Version: 0.1-1
+Version: 0.1-2
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.tozy.Tweak.hundsun.hospitalcloud.bj.unionmedicalcollegeHospital_0.1-1_iphoneos-arm.deb
-Size: 11884
-MD5sum: 33f7dc36f8b94924d2827bb55b78b037
-SHA1: d0306ce77b6e5bd30c0ddf2fc37342c76e6abe95
-SHA256: 47c11a41dede628a0f4f2c719106d3f76fd76d6d2c13d03b82550dc43bce349f
+Filename: debs/com.tozy.Tweak.hundsun.hospitalcloud.bj.unionmedicalcollegeHospital_0.1-2_iphoneos-arm.deb
+Size: 12178
+MD5sum: 4d1c34158bda1f4372d1c90783a9b544
+SHA1: 3d05e377c88c9074e422d8d6c43fb7736c832b94
+SHA256: b4f57182e933b96c8bf57ed4d991c302d8d5f5b301d0cd093ca156babe54f021
 Section: Tweaks
 Priority: optional
+Description: 移除预约挂号的禁止点击态
 Author: TozyZuo
 Name: 协和Tweak
 
