@@ -22,3 +22,11 @@
 6. 将所有文件上传到服务器即可
 
 注：Release 文件为整个Cydia源的描述
+
+### Deb解包封包
+
+`dpkg -X xxx.deb extract/`
+
+`dpkg -e xxx.deb extract/DEBIAN/ `
+
+`dpkg-deb -b extract xxx.deb`
