@@ -2,12 +2,12 @@ Package: com.julioverne.cydown
 Version: 6.9.7
 Architecture: iphoneos-arm
 Maintainer: Julio
-Depends: cydia, coreutils-bin, coreutils, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Filename: debs/cydown.deb
-Size: 1084712
-MD5sum: 1e2294dd22197e18b5e3e14301cf8281
-SHA1: 4683cc57a2f758f34c9e6ba2e333859349280208
-SHA256: ffd19e721fa71baf6fcb3fa96388086b015f4d8e41fb692d517aa5629e9be700
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: debs/com.julioverne.cydown_6.9.7_iphoneos-arm.deb
+Size: 1085390
+MD5sum: 7e923c276b894da812f3e775df72ffb7
+SHA1: 20784e92651d049dbed0f3c4ccd5f6cf0b20bd17
+SHA256: 14cf3ce759e0820b955b65026445ad6bb761f2c95e5830996874b1a2f855163d
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
