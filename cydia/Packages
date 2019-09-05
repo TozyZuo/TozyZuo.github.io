@@ -1,3 +1,21 @@
+Package: com.julioverne.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: cydia, coreutils-bin, coreutils, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: debs/cydown.deb
+Size: 1084712
+MD5sum: 1e2294dd22197e18b5e3e14301cf8281
+SHA1: 4683cc57a2f758f34c9e6ba2e333859349280208
+SHA256: ffd19e721fa71baf6fcb3fa96388086b015f4d8e41fb692d517aa5629e9be700
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.xarold.com/files-deb/cydown.html
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
 Package: com.r3al.flux
 Version: 10.0.0
 Architecture: iphoneos-arm
