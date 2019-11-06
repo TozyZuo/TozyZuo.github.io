@@ -91,6 +91,22 @@ Description: 整合了几个微信插件的插件。1.修改位置 2.抢红包 3
 Author: TozyZuo
 Name: WeChatPluginWrapperTweak
 
+Package: com.tozy.WebViewInspector
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: TozyZuo
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.tozy.WebViewInspector_0.1-1_iphoneos-arm.deb
+Size: 12418
+MD5sum: 002a2a47050ee88beca8b92e07e9dcd3
+SHA1: 6b5ce38d4039897c130a89b9fb7eece90551c949
+SHA256: 195536aed3e114c255d1a6d8903ad8cd2f0544a0c9dad0d9c021ffc4bcbdb9e1
+Section: Tweaks
+Priority: optional
+Description: Enable webview remote inspect for every app
+Author: TozyZuo
+Name: WebViewInspector
+
 Package: io.iosleep.DingTalkFucker
 Version: 1.0
 Architecture: iphoneos-arm
