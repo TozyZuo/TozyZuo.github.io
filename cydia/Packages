@@ -1,3 +1,21 @@
+Package: Tozy.TZRevealLoader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: TozyZuo
+Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader
+Conflicts: com.rheard.rhrevealloader, com.rheard.reveal-loader
+Replaces: com.rheard.rhrevealloader, com.rheard.reveal-loader
+Filename: debs/Tozy.TZRevealLoader_1.0_iphoneos-arm.deb
+Size: 45434
+MD5sum: 338b3aa1bbe7dd77f5a8730df1982092
+SHA1: bb9cdc35791ee4ce9dba3a11be936c06409d556c
+SHA256: aa304cf9d6c2ab03c8d9a038ee8c7b6abd42381eec5f246c6e24fddc5a6bc2e5
+Section: Tweaks
+Priority: optional
+Description: Reveal loader
+Author: TozyZuo
+Name: TZRevealLoader
+
 Package: com.julioverne.cydown
 Version: 6.9.7
 Architecture: iphoneos-arm
