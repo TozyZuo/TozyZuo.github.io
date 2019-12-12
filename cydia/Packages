@@ -1,3 +1,19 @@
+Package: Tozy.TZLookinLoader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: TozyZuo
+Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader
+Filename: debs/Tozy.TZLookinLoader_1.0_iphoneos-arm.deb
+Size: 3591292
+MD5sum: b6556735273d9a3d21dc4c9a66872f53
+SHA1: c24ae4d768195f1d97aefaf3249b3de457318a42
+SHA256: 7a1b2f6231c957f8b9523f4a1df4248a3273b265f48faf42bda33424f416b5ac
+Section: Tweaks
+Priority: optional
+Description: LookinServer loader(arm64e process support) Built-in version 1.0.0 (https://lookin.work). Support debuging SpringBoard view hierarchy, add 'key:Enabled-com.apple.springboard value:YES' to /var/mobile/Library/Preferences/Tozy.TZLookinLoader.plist
+Author: TozyZuo
+Name: TZLookinLoader
+
 Package: Tozy.TZRevealLoader
 Version: 1.0
 Architecture: iphoneos-arm
