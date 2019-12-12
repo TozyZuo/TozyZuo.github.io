@@ -64,18 +64,18 @@ Author: TozyZuo
 Name: DingTalkTweak
 
 Package: com.tozy.TZNavigationTweak
-Version: 0.1-1
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: TozyZuo
-Depends: mobilesubstrate, applist
-Filename: debs/com.tozy.TZNavigationTweak_0.1-1_iphoneos-arm.deb
-Size: 57072
-MD5sum: e2dd32f7de77c93f7959f9d95893e78e
-SHA1: 384d7af56056623ea02538dd0821cf19950e720a
-SHA256: 201cb2de31d6c6f94de4ffd29533c5501ec364d95e6f0f49d9928e552dd50bb6
-Section: Tweaks
+Depends: mobilesubstrate, applist, preferenceloader
+Filename: debs/com.tozy.TZNavigationTweak_1.1_iphoneos-arm.deb
+Size: 66582
+MD5sum: d41d58479f59bc4e809f5e5995c0529a
+SHA1: 8555560176b8a4fe8ae130e952bd398a7643f1b7
+SHA256: 18559fb1aeb43ab58f67e1cd7bf4ca2548b4b9ee4f83625908c29f16de547dac
+Section: System
 Priority: optional
-Description: 全屏返回手势
+Description: 全屏返回手势(arm64e process support)
 Author: TozyZuo
 Name: TZNavigationTweak
 
