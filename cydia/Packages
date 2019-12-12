@@ -6,13 +6,13 @@ Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader
 Conflicts: com.rheard.rhrevealloader, com.rheard.reveal-loader
 Replaces: com.rheard.rhrevealloader, com.rheard.reveal-loader
 Filename: debs/Tozy.TZRevealLoader_1.0_iphoneos-arm.deb
-Size: 45434
-MD5sum: 338b3aa1bbe7dd77f5a8730df1982092
-SHA1: bb9cdc35791ee4ce9dba3a11be936c06409d556c
-SHA256: aa304cf9d6c2ab03c8d9a038ee8c7b6abd42381eec5f246c6e24fddc5a6bc2e5
+Size: 4213458
+MD5sum: 8d3745fc1102e9075b668fa5b1bff183
+SHA1: 36479a986802a9d193f95d4eeca212316b8ee258
+SHA256: a7197cc016f6d4c4c1f2c3df03899f4567a38a362e22fedf3da031c2b348c549
 Section: Tweaks
 Priority: optional
-Description: Reveal loader
+Description: Reveal loader(arm64e process support) Built-in Version24 (12917) (https://github.com/xcanwin/MacOS-App-Crack/releases/download/71921-42v-kcarC-laeveR/71921-42v-kcarC-laeveR.dmg)
 Author: TozyZuo
 Name: TZRevealLoader
 
@@ -124,38 +124,4 @@ Priority: optional
 Description: Enable webview remote inspect for every app
 Author: TozyZuo
 Name: WebViewInspector
-
-Package: io.iosleep.DingTalkFucker
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: mx.yolande@gmail.com
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/io.iosleep.dingtalkfucker_1.0_iphoneos-arm.deb
-Size: 79022
-MD5sum: 0775c6619f6b90e4de59fe9a78707d3e
-SHA1: 97487755fe46017708299db119d9511281aac5e6
-SHA256: 2247419ed2a2d92a1720187822df9cbd6ffa8269cfa42fc6eada3e695b3b40ed
-Section: System
-Priority: optional
-Homepage: https://github.com/iOSleep/DingTalkFucker
-Description: 签到打卡（wifi，gps），抢红包（延迟，正则匹配）
-Author: iOSleep
-Name: DingTalkFucker
-
-Package: iokittools
-Version: 76-3p
-Architecture: iphoneos-arm
-Maintainer: TozyZuo
-Installed-Size: 84
-Depends: ncurses
-Filename: debs/iokittools_except_ioreg_76-3p_iphoneos-arm.deb
-Size: 4128
-MD5sum: ced1ee4341d4a286c325aea7be8497d8
-SHA1: 97ef35bcc376120de0cc7c3210d33c59354eda75
-SHA256: e4a1a47e9d29d38e159c35fefe585773b95c189fd6caf96461b06ec87ce8e36b
-Section: Development
-Priority: important
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: IOKit Tools
-Sponsor: TozyZuo
 
