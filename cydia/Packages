@@ -96,15 +96,15 @@ Author: TozyZuo
 Name: DingTalkTweak
 
 Package: com.tozy.TZNavigationTweak
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: TozyZuo
 Depends: mobilesubstrate, applist, preferenceloader
-Filename: debs/com.tozy.TZNavigationTweak_1.2_iphoneos-arm.deb
-Size: 66906
-MD5sum: 2b773f901c85da4f620b390057fc46e6
-SHA1: 8ec20689c08dec0b0b4f8b6372706be9a3e41aa4
-SHA256: eb26914dfdcafcb187c9b011c102d9a78c9818310ac8aadc76abfed0118b16c7
+Filename: debs/com.tozy.TZNavigationTweak_1.3_iphoneos-arm.deb
+Size: 67156
+MD5sum: e89a31b6330745719aac08e473ac07f3
+SHA1: ffef74c47b03d54bbc3f2abdb787ef3044104687
+SHA256: d0851b8af9c3563753f7b7d60e1c87a6c89098597fd78455cc5a5ab83eb71c7a
 Section: System
 Priority: optional
 Description: 全屏返回手势(arm64e process support)
@@ -127,14 +127,14 @@ Author: TozyZuo
 Name: 协和Tweak
 
 Package: com.tozy.WeChatPluginWrapperTweak
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.tozy.WeChatPluginWrapperTweak_1.0_iphoneos-arm.deb
-Size: 252920
-MD5sum: ce6d10107b0231e02326ad76de698bda
-SHA1: b69554072ca143fab1a372333f6ac81d5d4f7980
-SHA256: cfff645a946a1457e7f9d8442137177daf20d21312751546ec4ca3a026186bdb
+Filename: debs/com.tozy.WeChatPluginWrapperTweak_1.1_iphoneos-arm.deb
+Size: 253060
+MD5sum: 5e6958d56207feb7af25bff05e3e25fc
+SHA1: 01824622a6d3059b145e5efd73fe6c591deeca85
+SHA256: f1b30d6bcea56fb42c2b74bdba1ed65b5bac518699607235ce823b443845585e
 Section: Tweaks
 Priority: optional
 Description: 整合了几个微信插件的插件。1.修改位置 2.抢红包 3.应用内通知 4.TK大神插件 5.添加了显示消息时间，语音自动转文字功能(注：语音自动转文字在微信7.0上会崩溃，后续有时间会修改)
