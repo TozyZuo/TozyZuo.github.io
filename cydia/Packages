@@ -127,14 +127,14 @@ Author: TozyZuo
 Name: 协和Tweak
 
 Package: com.tozy.WeChatPluginWrapperTweak
-Version: 0.1-2
+Version: 1.0
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.tozy.WeChatPluginWrapperTweak_0.1-2_iphoneos-arm.deb
-Size: 259068
-MD5sum: 58ad9e38fc959d3a096f22d9db0f0282
-SHA1: c56fe256d1ef6ba243e91fc8096121173a9d5d1b
-SHA256: 931499e6b5d62a3ef4e99bdb776dae76f945d59348011415b8b9119b43b46ba8
+Filename: debs/com.tozy.WeChatPluginWrapperTweak_1.0_iphoneos-arm.deb
+Size: 252920
+MD5sum: ce6d10107b0231e02326ad76de698bda
+SHA1: b69554072ca143fab1a372333f6ac81d5d4f7980
+SHA256: cfff645a946a1457e7f9d8442137177daf20d21312751546ec4ca3a026186bdb
 Section: Tweaks
 Priority: optional
 Description: 整合了几个微信插件的插件。1.修改位置 2.抢红包 3.应用内通知 4.TK大神插件 5.添加了显示消息时间，语音自动转文字功能(注：语音自动转文字在微信7.0上会崩溃，后续有时间会修改)
