@@ -64,6 +64,21 @@ Description: Reveal loader(arm64e process support) Built-in Version24 (12917) (h
 Author: TozyZuo
 Name: TZRevealLoader
 
+Package: com.TozyZuo.WeChatPlugin
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: debs/com.TozyZuo.WeChatPlugin_1.0_iphoneos-arm.deb
+Size: 127638
+MD5sum: aea79624b14832e29f377d73802dfa98
+SHA1: 108075bf6764deea44cd380ecd8a4a9441a60545
+SHA256: eee266a6c00163a410a21f20704c2923bd26bbcb51604ab568ede0348c47cc69
+Section: Tweaks
+Priority: optional
+Description: 显示消息时间
+Author: TozyZuo
+Name: WeChatPlugin
+
 Package: com.julioverne.cydown
 Version: 6.9.7
 Architecture: iphoneos-arm
