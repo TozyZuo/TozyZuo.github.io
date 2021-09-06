@@ -67,12 +67,12 @@ Name: TZRevealLoader
 Package: com.TozyZuo.WeChatPlugin
 Version: 1.0
 Architecture: iphoneos-arm
-Depends: firmware (>= 10.0), mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/com.TozyZuo.WeChatPlugin_1.0_iphoneos-arm.deb
-Size: 185678
-MD5sum: cd4feb84343f97ee64f68ef774f24b3f
-SHA1: 378bab7c97cb08020fae3d6aee42732ed6717ed4
-SHA256: 2f58a27f4f8901adbc93682b1f53c18cb5574b2d2a38b20ed8fbbdd61d633ec8
+Size: 126886
+MD5sum: b5a40556dd0025f21e4c41d6364aaa67
+SHA1: 233a9492500cd1ff65bbda0e2a5e32112341469e
+SHA256: f50eb1aceb1fda1162666b54bb101ab96c69c80fd130fe3bbb5cc7e3defd1b8f
 Section: Tweaks
 Priority: optional
 Description: 显示消息时间
