@@ -79,6 +79,21 @@ Description: 显示消息时间，应用内通知
 Author: TozyZuo
 Name: 微信插件
 
+Package: com.TozyZuo.WeChatPlugin.rootless
+Version: 1.2
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.TozyZuo.WeChatPlugin.rootless_1.2_iphoneos-arm64.deb
+Size: 129070
+MD5sum: bc11d8a33aca3efd54f93917c6397e94
+SHA1: 4aa75af4bf6a0c3d21531b1c16da5f008bd45254
+SHA256: 59d3a2bb362a52bd4cc8e744abbb04441a1b5dec3c209d9662129c70549993d6
+Section: Tweaks
+Priority: optional
+Description: 显示消息时间，应用内通知
+Author: TozyZuo
+Name: 微信插件【rootless】
+
 Package: com.julioverne.cydown
 Version: 6.9.7
 Architecture: iphoneos-arm
