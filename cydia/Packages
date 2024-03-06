@@ -84,10 +84,10 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Depends: firmware (>= 15.0)
 Filename: debs/com.TozyZuo.WeChatPlugin.rootless_1.2_iphoneos-arm64.deb
-Size: 184692
-MD5sum: 74fa6173f92127754ca52960e35ddb37
-SHA1: a4957c10b12a472c76a1e25e61ec006c69f5ac84
-SHA256: 16705cb98661ed91f16accb56e7cdbe372fdac1a34b9b65a529bbf02ad9e048e
+Size: 56066
+MD5sum: 84de74f69589a98ebd9ac9cd6ddd4d72
+SHA1: 1cbc760b708e47c7da6e0c868e81c82c19d71b6e
+SHA256: 0ba692ef822cc0d9c5f424a5555388e56bd0d6061be6d6e47b13f950c1e8ef16
 Section: Tweaks
 Priority: optional
 Description: 显示消息时间，应用内通知
