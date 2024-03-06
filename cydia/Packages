@@ -82,12 +82,12 @@ Name: 微信插件
 Package: com.TozyZuo.WeChatPlugin.rootless
 Version: 1.2
 Architecture: iphoneos-arm64
-Depends: firmware (>= 15.0)
+Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/com.TozyZuo.WeChatPlugin.rootless_1.2_iphoneos-arm64.deb
-Size: 56066
-MD5sum: 84de74f69589a98ebd9ac9cd6ddd4d72
-SHA1: 1cbc760b708e47c7da6e0c868e81c82c19d71b6e
-SHA256: 0ba692ef822cc0d9c5f424a5555388e56bd0d6061be6d6e47b13f950c1e8ef16
+Size: 56080
+MD5sum: 5169ffe0403548af06472bacca9edb46
+SHA1: e7372e1f4a15b44472e845b8e3ed2606b4057801
+SHA256: bc31cf1c5af5ded6fc245964280d01d4fcfee7982e1164e50e61d17696ae0ecc
 Section: Tweaks
 Priority: optional
 Description: 显示消息时间，应用内通知
