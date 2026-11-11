@@ -204,3 +204,36 @@ Description: Enable webview remote inspect for every app
 Author: TozyZuo
 Name: WebViewInspector
 
+Package: local.mjs.appearance
+Version: 0.5.3
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Depends: firmware (>= 13.0), ellekit
+Filename: debs/MJSLocalAppearance_0.5.3_iphoneos-arm64.deb
+Size: 14289368
+MD5sum: a8d62fc5980df12c44e53371276df0e8
+SHA1: 26da15f1c0472de6af8451daf052761c07f596fd
+SHA256: 4d12a6fb165fd17e813feed443bcd46c75d91428d22824633ac5952843027b51
+Section: Tweaks
+Priority: optional
+Description: Locally adapts compatible Logic images at load time.
+ Close the game before installing. Three-finger hold opens settings.
+Name: 名将杀本地外观（Rootless）
+
+Package: local.sgs.appearance
+Version: 0.4.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Depends: firmware (>= 15.0), ellekit
+Filename: debs/SGSLocalAppearance_0.4.0_iphoneos-arm64.deb
+Size: 58208
+MD5sum: d3d69203a90d3ba11acb2f2198f52a54
+SHA1: 8021c48f83f3db2a69bc6c1c0989bdf908e35cf2
+SHA256: 8a024a8b88fa5963012c59d253401ef0aa344ee4439ad5e4a0c836220a7db81e
+Section: Tweaks
+Priority: optional
+Description: Local SGS skin appearance via version-adaptive Lua ZIP.
+ Uses the same appearance Lua and data engine as LiveContainer.
+ No fixed executable UUID, native RVA or code page hook.
+ Rootless 0.4.0 has not been verified on 14pm; back up game data before testing.
+Name: 三国杀本地外观（Rootless 测试版）
