@@ -223,15 +223,15 @@ Description: Local SGS skin appearance via version-adaptive Lua ZIP.
 Name: 三国杀本地外观（Rootless 测试版）
 
 Package: local.mjs.appearance
-Version: 0.5.5
+Version: 0.5.6
 Architecture: iphoneos-arm64
 Maintainer: Local User
 Depends: firmware (>= 13.0), ellekit
-Filename: debs/MJSLocalAppearance_0.5.5_iphoneos-arm64.deb
-Size: 79508
-MD5sum: 404d57cbab8beef28da255f29cb3f253
-SHA1: 8e2d25572a39a567257325f955c3ebb9fbeeaed0
-SHA256: 6d1a6964b1c9515559bf19a1c1d54eece4b08ad9421e2b278088d1156f44ad8f
+Filename: debs/MJSLocalAppearance_0.5.6_iphoneos-arm64.deb
+Size: 122956
+MD5sum: f218f00fd94b50f69de2af6e916e96f8
+SHA1: 56db88bca70b30647ae44e82fe22d893a437932e
+SHA256: d6a31759156de93e277afcfa79cd9edf8085726f09fb46efbf2f7b4954ed7197
 Section: Tweaks
 Priority: optional
 Description: Locally adapts compatible Logic images at load time.
